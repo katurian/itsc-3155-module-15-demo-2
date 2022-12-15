@@ -22,5 +22,4 @@ class MovieRepository:
         return found_movies
 
 
-# Singleton to be used in other modules
 movie_repository_singleton = MovieRepository()
